@@ -5,6 +5,7 @@ int main(){
     cout << "Enter number" << "\t";
     cin >> number;
     int ans =0;
+    
 
     for(int i=number; i>0;i=i/10){
         int digit=i%10;
